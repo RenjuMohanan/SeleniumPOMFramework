@@ -1,0 +1,4 @@
+17:31:13,728  INFO TestCase1<strong>{1}</strong>:34 - Test1 log
+17:31:13,773  INFO TestCase1<strong>{1}</strong>:38 - Google Logo validation
+17:31:13,782  INFO TestCase1<strong>{1}</strong>:43 - Home Page Title validation
+17:31:14,166  INFO TestCase2<strong>{1}</strong>:34 - Test2 log

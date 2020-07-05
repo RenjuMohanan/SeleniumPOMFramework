@@ -30,7 +30,7 @@ public class TestBase {
 		try 
 		{
 			log = Logger.getLogger("TestBase");
-			PropertyConfigurator.configure("log4j.properties");
+			PropertyConfigurator.configure(System.getProperty("user.dir")+"/src/test/resources/log4j.properties");
 			report = new ExtentReports(System.getProperty("user.dir")+"/ExtentReportResults.html", true);
 		    prop = new Properties();
 		    FileInputStream is = new FileInputStream(System.getProperty("user.dir")+"/src/main/java/com/selenium/config/config.properties");

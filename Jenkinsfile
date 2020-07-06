@@ -3,7 +3,7 @@ node {
 		git "https://gitlab.com/mbabilo/experitest"
 		}
 	stage ('Build'){
-    	dir("comtest") {
+    	dir("SeleniumPOM") {
 	   sh "mvn clean install"
        }
        	dir("comtest/target") {

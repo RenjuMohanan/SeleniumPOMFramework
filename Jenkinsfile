@@ -6,7 +6,7 @@ node {
     	dir("SeleniumPOM") {
 	   sh "mvn clean install"
        }
-       	dir("comtest/target") {
+       	dir("SeleniumPOM/target") {
 	   sh "java -jar com.test-1.0-SNAPSHOT.jar"
        }
 		}

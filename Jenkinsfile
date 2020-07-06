@@ -7,7 +7,7 @@ node {
 	   bat "mvn clean install"
        }
        	dir("SeleniumPOM/target") {
-	   bat "java -jar com.test-1.0-SNAPSHOT.jar"
+	   bat "java -jar Test-0.0.1-SNAPSHOT.jar"
        }
 		}
 }
